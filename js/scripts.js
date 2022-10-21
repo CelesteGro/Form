@@ -1,16 +1,10 @@
 function handleRadio(event) {
   event.preventDefault();
-  const radioSelection = document.querySelector("input[name='bev']:checked").value
+  const radioSelection =document.querySelector("input[name='bev']:checked").value
+
 }
 
-window.addEventListener("load", function() {
-  let form=document.querySelector("form");
-  let submit=document.getElementById("submit");
+window.addEventListener("load", function(){
+  this.document.getElementById("questions").addEventListener("submit", handleRadio)
+})
 
-  form.addEventListener("submit", function(event) {
-    const 
-  }
-}
-
-
-  
