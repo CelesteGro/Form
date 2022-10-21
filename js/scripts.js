@@ -1,4 +1,7 @@
-function radioSelection()
+function radioSelection(){
+  const radioSelection =document.querySelector("input[name='bev']:checked").value;
+}
+function unHideResults(){
   const go = document.getElementById("go");
   go.setAttribute("class","hidden");
   const python = document.getElementById("python");
@@ -8,15 +11,11 @@ function radioSelection()
   const javascript = document.getElementById("javascript");
   javascript.setAttribute("class","hidden");
 
+  const milk = document.getElementById("milk");
+    if (document.getElementById('milk').checked); {
+      javascript.removeAttribute("class", "hidden"); }
 
-function unhideResults() 
-  const radioSelection =document.querySelector("input[name='bev']:checked").value;
-  if (radioSelection === "input#milk")
-    javascript.removeAttribute("class");
-
-    
-  
-window.addEventListener("load"), function(event){
-window.document.getElementById("questions").addEventListener("submit", event)
-  event.preventDefault;
+form.addEventListener("submit")
+let event=("submit")
+  event.preventDefault
 }
