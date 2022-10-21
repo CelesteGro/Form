@@ -1,15 +1,15 @@
-function handleSelect(event) {
-  document.addEventListener("submit" function)
+function handleRadio(event) {
   event.preventDefault();
-  const milk = document.getElementById("input[name='milk']:checked").value;
-  const tea = document.getElementById("input[name='tea']:checked").value;
-  const water = document.getElementById("input[name='water']:checked").value;
-  const coffee = document.getElementById("input[name='coffee']:checked").value;
+  const radioSelection = document.querySelector("input[name='bev']:checked").value
+}
 
-  if (milk=checked){
-    javascript.removeAttribute("class")
+window.addEventListener("load", function() {
+  let form=document.querySelector("form");
+  let submit=document.getElementById("submit");
+
+  form.addEventListener("submit", function(event) {
+    const 
   }
-  
 }
 
 
